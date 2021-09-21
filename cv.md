@@ -28,7 +28,7 @@ ___
 
 * RSSchool JavaScript/Front-end 2021Q3
 * HTML, CSS, JavaScript courses on code-basics.com
-* HTML, CSS corses on webref.ru
+* HTML, CSS courses on webref.ru
 ___
 ### English
 
