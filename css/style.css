@@ -9,7 +9,7 @@
     cursor: pointer;
     z-index: 1;
   }
-   
+
   .menu-btn > span,
   .menu-btn > span::before,
   .menu-btn > span::after {
