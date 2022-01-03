@@ -6,89 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lusine Akopyan</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 </head>
-<div class="burger-menu">
+<!--<div class="burger-menu">
     <input id="menu-toggle" type="checkbox" />
     <label class="menu-btn" for="menu-toggle">
       <span></span>
     </label>
     <ul class="menubox">
             <li><a class="menu-item" href="#contacts">Contacts</a></li>
-            <li><a class="menu-item" href="#about-me">About me</a></li>
             <li><a class="menu-item" href="#skills">Skills</a></li>
             <li><a class="menu-item" href="#code-example">Code Example</a></li>
             <li><a class="menu-item" href="#education">Educatuon</a></li>
             <li><a class="menu-item" href="#english">English</a></li>
     </ul>
-  </div>
+  </div> -->
 <body>
-    <div id="container">
-        <div id="nav"></div>
-        <div id="aside"></div>
-        <div id="content">
-            <main class="content">
-                <img class="photo" src="img/photo-cv.jpg" alt="My photo" height=300px>
-    <header>
-        <h1> Lusine Akopyan</h1>
-    </header>
-    <p class="position">Junior Front-End Developer</p>
-    </div>
-    <article class="contacts">
-    <h2><a name="contacts">Contacts</a></h2>
+  <nav class="menu">
     <ul>
-        <li>Location: Nizhny Novgorod</li>
-        <li>Telegram: @lu_si_ne</li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#code-example">Code Example</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#contacts">Contacts</a></li>
     </ul>
-    </article>
-    <article class="about-me">
-    <h2><a name="about-me">About me</a></h2>
-    <p>I learn programming to become a Front-End Engineer. It's so hard to study but I do my best.</p>
-    </article>
-    <article class="skills">
+  </nav>
+  <header>
+    <h1>Lusine Akopyan</h1>
+    <p class="position">Junior Front-End Developer</p>
+  </header>
+  <section class="main">
+    <div class="main">
+      <p class="main">Hello, world!<br>To be honest, I'm not a front-end developer yet. I am committed to learning and self-development so that I can consistently achieve better results.</p>
+    </div>
+    
+    </section>
+  <section class="skills">
     <h2><a name="skills">Skills</a></h2>
     <ul>
         <li>HTML</li>
         <li>CSS</li>
-        <li>Git</li>
+        <li>JavaScript</li>
+        <li>Git / GitHub</li>
         <li>VSCode</li>
+        <li>Figma</li>
     </ul>
-    </article>
-    <article class="code-example">
+    </section>
+    <section class="code-example">
     <h2><a name="code-example">Code Example</a></h2>
         <pre>
 
-        function multiply(a, b){
-            return a * b
-          }
+          function greet() {
+            return "hello world!";
+            }
           
         </pre>
-    </article>
-    <article class="education">
+    </section>
+    <section class="projects">
+      <h2><a name="projects">Projects</a></h2>
+      <div class="projects">
+        <a href="https://lusinesayshelloworld.github.io/Burger/" target="_blank"><img src="img/burger.png" alt="burger">
+          <p>Burgers</p>
+        </a>
+        <a href="https://rolling-scopes-school.github.io/lusinesayshelloworld-JSFE2021Q3/museum/" target="_blank"><img src="img/museum.jpg" alt="museum">
+          <p>Museum</p>
+        </a>
+      </div>
+    </section>
+    <section class="education">
     <h2><a name="education">Education</a></h2>
     <ul>
         <li>RSSchool JavaScript/Front-end 2021Q3</li>
         <li>HTML, CSS, JavaScript courses on code-basics.com</li>
         <li>HTML, CSS courses on webref.com</li>
     </ul>
-    </article>
-    <article class="english">
-    <h2><a name="english">English</a></h2>
+    </section>
+    <section class="languages">
+    <h2><a name="languages">Languages</a></h2>
+    <h3>English</h3>
     <p>B1 (Intermediate)</p>
-    </article>
+    <h3>Russian</h3>
+    <p>Native</p>
+    </section>
 </section>
+<section class="contacts">
+  <h2><a name="contacts">Contacts</a></h2>
+  <ul>
+      <li>Location: Nizhny Novgorod</li>
+      <li>Telegram: @lu_si_ne</li>
+      <li>Discord: Lusine#6381</a></li>
+  </ul>
+  </section>
 </main>
 <footer class="footer">
   <a class="ref" href="https://rs.school/js/" target="_blank">
     <img class="rsschool-logo" src="./img/rs_school_js.svg" alt="RSSchool logo">
   </a>
-  <p class="footer_year">~ 2021 ~</p>
-  <a class="ref" href="https://github.com/Lusinesayshelloworld" target="_blank">
-    <span class="github-text">Follow me on GitHub</span>
-    <img class="github-logo" src="./img/GitHub-logo.png" alt="GitHub logo">
-  </a>
+  <p class="footer_year">© 2022 by Lusine Akopyan</p>
+  <div class="footer_logo">
+    <a class="github" href="https://github.com/Lusinesayshelloworld" target="_blank">
+      <img src="/img/github.png" alt="github_logo">
+    </a>
+    <a class="telegram" href="https://t.me/lu_si_ne" target="_blank">
+      <img src="/img/telegram.png" alt="telegram_logo">
+    </a>
+    <a class="discord" href="https://t.me/lu_si_ne" target="_blank">
+      <img class="discord" src="/img/discord.png" alt="discord_logo">
+    </a>
+  </div>
 </footer>
-</div>
-</body>
-</html>
 </body>
 </html>
