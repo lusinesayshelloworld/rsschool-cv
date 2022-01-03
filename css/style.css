@@ -114,7 +114,7 @@ header {
   width: 1280px;
   height: 600px;
   display: inline-flexbox;
-  background-image: url('/img/cv-photo.png');
+  background-image: url('../img/cv-photo.png');
   background-repeat: no-repeat;
   background-size: auto;
   background-position: right;
