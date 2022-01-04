@@ -76,6 +76,7 @@
   }
 
 body {
+<<<<<<< HEAD
     background-color: rgb(255, 255, 255);
 }
 #container {
@@ -155,6 +156,106 @@ body {
     width: 100px;
     height: 100px;
   }
+
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+}
+
+nav {
+  margin: 0 auto;
+}
+
+.menu ul {
+  padding-left: 100px;
+}
+
+.menu li {
+  list-style: none;
+  display: inline;
+  justify-content: space-around;
+  align-content: center;
+  margin: 0 auto;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+header {
+  width: 1280px;
+  height: 600px;
+  display: inline-flexbox;
+  background-image: url('../img/cv-photo.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+
+h1 {
+  width: 100vw;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-left: 100px;
+}
+
+.position {
+  height: 400px;
+  color: #fff;
+  font-size: 40px;
+  padding-left: 200px;
+}
+
+.main p{
+  color: #fff;
+  font-size: 24px;
+  padding: 100px 200px;
+  line-height: 50px;
+}
+
+.main div {
+  height: 400px;
+}
+
+.skills {
+  color: #fff;
+  font-size: 24px;
+  padding: 0 100px;
+}
+
+.code-example {
+  color: #fff;
+  font-size: 24px;
+  padding: 0 100px;
+}
+
+pre {
+  font: 1em sans-serif rgb(255, 255, 255);
+  background-color: rgba(34, 34, 34, 0.774);
+  width: 1100px;
+}
+
+.projects {
+  color: #fff;
+  font-size: 24px;
+  padding: 0 100px;
+}
+
+.projects div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 20px;
+}
+
+.projects img {
+>>>>>>> gir-html-css
   
   .github-text {
     margin-right: 1rem;
