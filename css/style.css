@@ -33,6 +33,22 @@ nav {
   padding: 20px;
 }
 
+.menu a:hover {
+  color: rgba(255, 0, 200, 0.76);
+  transition: 0.3s;
+  text-shadow: 2px 2px 3px rgb(255, 0, 170), 0 0 2em rgb(0, 247, 255), 0 0 0.5em blue;
+  animation: light 1.5s linear infinite alternate;
+}
+
+@keyframes light {
+  0% {
+    text-shadow: 0 0 20px 0 rgba(190, 77, 227, 0);
+  }
+  100% {
+    text-shadow: 0 0 20px 0 rgba(190, 77, 227, 1);
+  }
+}
+
 header {
   width: 1280px;
   height: 600px;
