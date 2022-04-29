@@ -94,14 +94,24 @@ h1 {
   height: 100%;
 }
 
-.skills {
+h2 {
   text-align: center;
+}
+
+.skills {
   color: var(--text-color);
   font-size: 24px;
 }
 
-.skills-container div {
-  display: inline-block;
+.skills-items div {
+  display: inline-flex;
+  margin: 20px;
+}
+
+.skills-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .skills-icons {
