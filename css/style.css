@@ -196,3 +196,7 @@ pre {
   width: 32px;
   filter: invert(1);
 }
+
+.codewars img {
+  width: 32px;
+}
