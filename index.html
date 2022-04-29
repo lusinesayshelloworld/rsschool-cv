@@ -64,9 +64,14 @@
     <h2><a id="code-example">Code Example</a></h2>
         <pre>
 
-          function greet() {
-            return "hello world!";
-            }
+          function dataReverse(data) {
+            let size = 8;
+            let newArr = [];
+            for (let i = 0; i < (data.length/size); i++){
+               newArr[i] = data.slice((i*size), (i*size) + size);
+          }
+           return newArr.reverse().concat.apply([], newArr);
+          }
           
         </pre>
     </section>

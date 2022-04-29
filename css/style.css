@@ -96,16 +96,22 @@ h1 {
 
 h2 {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .skills {
   color: var(--text-color);
   font-size: 24px;
+  margin: 0 auto;
+
 }
 
-.skills-items div {
+.skills-items {
   display: inline-flex;
-  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
 }
 
 .skills-item {
@@ -119,15 +125,19 @@ h2 {
 }
 
 .code-example {
+  height: 400px;
   color: var(--text-color);
   font-size: 24px;
-  padding: 0 100px;
+  padding: 0 50px;
+  margin-bottom: 100px;
 }
 
 pre {
-  font: 1em sans-serif rgb(82, 79, 79);
-  background-color: rgba(255, 255, 255, 0.774);
-  width: 1100px;
+  font: 1em sans-serif rgb(175, 157, 98);
+  background-color: rgb(0, 0, 0);
+  width: 80%;
+  height: 90%;
+  margin: 0 auto;
 }
 
 .projects {
