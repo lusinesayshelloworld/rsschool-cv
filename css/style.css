@@ -133,8 +133,9 @@ h2 {
 }
 
 pre {
-  font: 1em sans-serif rgb(175, 157, 98);
+  font: 1em sans-serif rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
+  color: azure;
   width: 80%;
   height: 90%;
   margin: 0 auto;
